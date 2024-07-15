@@ -1,20 +1,33 @@
 # ForumHub
 
-## Descrição
-    Projeto criado como um challenger da formação spring para a turma do ONE (oracle next education)
+Descrição 
 
-## Dependências
-    - Necessario possuir o Java instalado
-    - Necessario possuir o Mysql instalado
+    ForumHub é um sistema proposto no desafio One da Oracle, onde teve como objetivo criar um fórum online que permite aos usuários interagirem e compartilharem informações em diferentes tópicos de discussão.
 
-## Tecnologias utilizadas
-    - Java 17
-    - Spring boot 3.3.0
-    - Mysql
+Configuração e Execução
 
-## Como utilizar
+    - Certifique-se de ter o JDK e o Maven instalados.
+    - Clone este repositório Git.
+    - Importe o projeto em sua IDE preferida como um projeto Maven existente.
+    - Configure as propriedades do banco de dados em src/main/resources/application.properties.
+    - Execute o projeto usando a classe ForumHubApplication.java.
+    
+Como utilizar
 
-- No terminal clone o projeto
-- Crie um banco de dados com o nome "forumhub"
-- Crie uma variavel de ambiente com o nome `JWT_SECRET`
-- Agora basta rodar dentro da IDE a classe ForumHubApplication
+    Para este projeto é necessario fazer uso dessas tecnologias:
+        - Java 17
+        - Spring boot 3.3.0
+        - Mysql
+     
+    - Crie um banco de dados com o nome "forumhub"
+    - Crie uma variavel de ambiente com o nome `JWT_SECRET`
+    
+    Após iniciar o servidor, você pode interagir com o sistema através dos endpoints REST disponíveis. 
+
+    Por exemplo:
+        POST /usuarios: Endpoint para criar um novo usuário no sistema.
+        POST /login: Endpoint para autenticar um usuário e obter um token JWT.
+    
+
+  
+
